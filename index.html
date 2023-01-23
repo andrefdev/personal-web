@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no">
+  <title>Andre Forsyth @andrefdev</title>
+  <link rel="icon" type="" href="./src/images/favicon.ico">
+  <!-- styles -->
+  <link rel="stylesheet" href="./src/scss/main.scss">
+
+  <!-- scroll reveal -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+  <!-- flickity -->
+  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+
+  <!--font awesome-->
+  <script src="https://kit.fontawesome.com/f56beb7c17.js" crossorigin="anonymous"></script>
+
+  <!-- jquery -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.js" integrity="sha512-nO7wgHUoWPYGCNriyGzcFwPSF+bPDOR+NvtOYy2wMcWkrnCNPKBcFEkU80XIN14UVja0Gdnff9EmydyLlOL7mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>  
+
+</head>
+
+<body>
+  <header class="text-center" id="mensaje">
+    <h5 class="py-2 my-0">under development</h5>
+  </header>
+  <section class="text-white">
+    <nav class="navbar sticky-top navbar-dark navbar-expand-lg bg-dark  justify-content-center">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="../src/images/AF.png" alt="" class="d-inline-block align-top" width="30" height="30">
+          andrefdev
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto">
+            <a class="nav-link active" aria-current="page" href="https://github.com/andrefdev">GitHub <i
+                class="fa-brands fa-github"></i></a>
+            <a class="nav-link active" href="https://stackoverflow.com/users/12477601/andr%c3%a9-forsyth">StackOverflow
+              <i class="fa-brands fa-stack-overflow"></i></a>
+            <a class="nav-link" href="https://twitter.com/andrefdev">Twitter <i class="fa-brands fa-twitter"></i></a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- letras con mi nombre -->
+    <div class="console-container">
+      <span id='text'></span>
+      <div class="console-underscore" id="console">&#95;</div>
+    </div>
+
+    <!-- text -->
+    <div class="container bg-black py-4 mr-4 ml-4 text-center rounded-5 intro-text text-inicio text-light">
+      <p> <strong>Hi!</strong> i'm André, software engineering student.</p>
+    </div>
+
+    <div class="d-flex align-items-center justify-content-center my-3">
+      <a class="btn btn-light m-3 active" href="./src/bio/bio.html" type="button">Biography</a>
+    </div>
+
+    <!--publicacion destacada-->
+    <article class="d-flex justify-content-center">
+      <div class="card text-bg-dark mb-3 post-destacado" id="post-destacado">
+        <div class="row g-0">
+          <div class="col-md-6">
+            <a href="#">
+              <img src="../src/images/2.jpg" class="img-fluid rounded-start" alt="...">
+            </a>
+          </div>
+          <div class="col-md-6">
+            <div class="card-body">
+              <a href="#">
+                <h5 class="card-title">Ai Stable Difussion</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                  content. This content is a little bit longer.</p>
+              </a>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <!--Proyects
+      en esta parte van los proyectos-->
+    <section>
+      <div class="text-center py-5">
+        <h2>Proyects</h2>
+        <hr>
+      </div>
+
+      <div class="main-carousel text-center" data-flickity='{ "cellAlign": "left", "contain": true, "autoPlay": true }'>
+        <div class="carousel-cell">
+          <div class="container contenedor1">
+            <br><br><br>
+            <h1>Proyect 1</h1>
+            <small>holamundo</small>
+            <div class="cell-body container">
+              <p>
+              <blockquote>este proyecto fue el primero que hice, por eso se llama proyecto 1 gil
+              </blockquote>
+              </p>
+            </div>
+            <br><br><br>
+          </div>
+        </div>
+
+        <div class="carousel-cell">
+          <div class="container contenedor2">
+            <br><br><br>
+            <h1>Proyect 2</h1>
+            <small>holamundo</small>
+            <div class="cell-body container">
+              <p>
+              <blockquote>este proyecto fue el segundo que hice, por eso se llama proyecto 2 gil
+              </blockquote>
+              </p>
+            </div>
+            <br><br><br>
+          </div>
+        </div>
+
+        <div class="carousel-cell">
+          <div class="container contenedor3">
+            <br><br><br>
+            <h1>Proyect 3</h1>
+            <small>holamundo</small>
+            <div class="cell-body container">
+              <p>
+              <blockquote>este proyecto fue el tercero que hice, por eso se llama proyecto 3 gil
+              </blockquote>
+              </p>
+            </div>
+            <br><br><br>
+          </div>
+        </div>
+
+        <div class="carousel-cell">
+          <div class="container contenedor1">
+            <br><br><br>
+            <h1>Proyect 4</h1>
+            <small>holamundo</small>
+            <div class="cell-body container">
+              <p>
+              <blockquote>este proyecto fue el cuarto que hice, por eso se llama proyecto 4 gil
+              </blockquote>
+              </p>
+            </div>
+            <br><br><br>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Posts 
+    en esta parte van las publicaciones que haré-->
+    <section>
+      <div class="text-center py-5">
+        <h2 class="">Posts</h2>
+        <hr>
+      </div>
+
+      <!--publicaciones-->
+
+      <div class="container contenedorPosts">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+
+          <article class="post">
+            <div class="col">
+              <div class="card text-bg-dark card-post">
+                <div class="card-header">
+                  <img src="./src/images/AF.png" class="card-img-top" alt="...">
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                    additional content. This content is a little bit longer.</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">Last updated 3 mins ago</small>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="post">
+            <div class="col card-post">
+              <div class="card text-bg-dark h-100">
+                <div class="card-header">
+                  <img src="./src/images/AF.png" class="card-img-top" alt="...">
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This card has supporting text below as a natural lead-in to additional content.
+                  </p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">Last updated 3 mins ago</small>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="post">
+            <div class="col card-post">
+              <div class="card text-bg-dark h-100">
+                <div class="card-header">
+                  <img src="./src/images/AF.png" class="card-img-top" alt="...">
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This card has supporting text below as a natural lead-in to additional content.
+                  </p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">Last updated 3 mins ago</small>
+                </div>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+    <br><br>
+  </section>
+
+  <!--footer-->
+  <footer class="bg-black py-5">
+    <div class="container text-dark text-center">
+      <p class="display-10 mb-1">Made with love and html.</p>
+      <small class="text-white-50">Ricardo André Forsyth <strong>All rigths reserverd ©</strong> </small>
+    </div>
+  </footer>
+  
+  <!-- main script -->
+  <script type="module" src="src/js/main.js"></script>
+
+  <!--flickity-->
+  <script type="module" src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
+  <!-- db -->
+  <script type="module" src="./app.js"></script>
+  
+</body>
+
+</html>
